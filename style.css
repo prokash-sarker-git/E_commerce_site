@@ -1,6 +1,5 @@
 .container{
-    margin-bottom: 100px;
-
+   margin-bottom: 100px;
 }
 .orange-bg{
     background-color: #fceae8;
@@ -19,4 +18,40 @@
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
+}
+.categories-1{
+    background-image: linear-gradient(to top,#FF9C35, #FFD019);
+}
+.categories-2{
+    background-image: linear-gradient(to bottom,#FF589B , #FF136F);
+}
+.categories-3{
+    background-image: linear-gradient(to bottom,#4289FF , #07F8C3);
+}
+.categories-1,.categories-2,.categories-3{
+    padding:  15px 30px;
+    border-radius: 13px;
+}
+.Catagories img{
+    width: 100px;
+}
+.card-section p ,h5{
+    text-align: center;
+}
+.card{
+    border: none;
+    box-shadow:10px 10px 10px #91908a;
+}
+.container-section{
+   height: 200px;
+}
+.copyright{
+    text-align: center;
+    text-shadow: 1px  rgb(197, 189, 189);
+    color: rgb(126, 126, 131);
+    font-weight: 400;
+}
+.img-fluid{
+    height: 60px;
+    width: 60px;
 }
